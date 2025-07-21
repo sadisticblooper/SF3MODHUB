@@ -14,9 +14,9 @@ const modData = {
           link: "https://t.me/idkjetd/5"
         },
         {
-          name: "SubBundle 3",
-          image: "assets/sub3.webp",
-          link: "https://example.com/mod3"
+          name: "Kissing opponent for good luck stance for knuckles by Agent roman",
+          image: "assets/kiss.webp",
+          link: "https://t.me/idkjetd/23"
         }
       ]
     },

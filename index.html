@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SF3 MODSHUB</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>SF3 MODSHUB</h1>
+
+  <div class="button-container">
+    <div class="button" onclick="toggleSection('readymade')">Readymade Mods</div>
+    <div class="button" onclick="toggleSection('rawmaterial')">Raw Material</div>
+    <a class="button" href="https://google.com" target="_blank">Send Your Mods Here</a>
+  </div>
+
+  <!-- Readymade Mods Section -->
+  <div id="readymade" class="folder-section" style="display: none;"></div>
+
+  <!-- Raw Material Section -->
+  <div id="rawmaterial" class="folder-section" style="display: none;"></div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -44,7 +44,7 @@ const modData = {
   ],
   rawmaterial: [
     {
-      name: "Material Pack A",
+      name: "Weapons",
       subbundles: [
         {
           name: "SubMaterial 1",
@@ -54,12 +54,12 @@ const modData = {
       ]
     },
     {
-      name: "Material Pack B",
+      name: "Moveset and miscellaneous",
       subbundles: [
         {
-          name: "SubMaterial Alpha",
+          name: "Shadow's moveset",
           image: "assets/raw2.webp",
-          link: "https://example.com/raw2"
+          link: "https://t.me/idkjetd/21"
         }
       ]
     }

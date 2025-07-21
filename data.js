@@ -5,12 +5,12 @@ const modData = {
       subbundles: [
         {
           name: "Dote apple cutting stance",
-          image: "assets/sub1.webp",
+          image: "assets/dote apple.webp",
           link: "https://t.me/idkjetd/3"
         },
         {
           name: "Glitch Markus for Giant sword",
-          image: "assets/sub2.webp",
+          image: "assets/Markus giant sword.webp",
           link: "https://t.me/idkjetd/5"
         },
         {

@@ -17,6 +17,11 @@ const modData = {
           name: "Kissing opponent for good luck stance for knuckles by Agent roman",
           image: "assets/kiss.webp",
           link: "https://t.me/idkjetd/23"
+        },
+        {
+          name: "katana qigong stance by Danrath",
+          image: "assets/qigong.webp",
+          link: "https://t.me/idkjetd/25"
         }
       ]
     },

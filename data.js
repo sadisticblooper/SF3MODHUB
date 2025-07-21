@@ -25,17 +25,17 @@ const modData = {
       subbundles: [
         {
           name: "Dote recolour indigo theme",
-          image: "assets/suba.webp",
+          image: "assets/dote indigo skin.webp",
           link: "https://t.me/idkjetd/11"
         },
         {
           name: "Glitch Markus",
-          image: "assets/subb.webp",
+          image: "assets/glitch markus skin.webp",
           link: "https://t.me/idkjetd/13"
         },
         { 
           name: "void warden becomes shadow mind",
-          image: "assets/subc.webp",
+          image: "assets/void×shadowmind skin.webp",
           link: "https://t.me/idkjetd/15"
         
         }

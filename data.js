@@ -76,6 +76,8 @@ function generateSectionHTML(sectionId) {
     `;
 
     bundle.subbundles.forEach((subbundle, index) => {
+      const isRawMaterial = sectionId === 'rawmaterial';
+      
       html += `
         ${index > 0 ? '<div class="separator"></div>' : ''}
         <div class="subbundle" onclick="toggleSub(this)">
@@ -83,9 +85,11 @@ function generateSectionHTML(sectionId) {
         </div>
         <div class="bundle-content">
           <div class="mod-content">
-            <div class="mod-image-container">
-              <img src="${subbundle.image}" alt="${subbundle.name} Preview">
-            </div>
+            ${isRawMaterial ? '' : `
+              <div class="mod-image-container">
+                <img src="${subbundle.image}" alt="${subbundle.name} Preview">
+              </div>
+            `}
             <div class="download-container">
               <a href="${subbundle.link}" target="_blank">
                 <img src="download-icon.svg" alt="Download Icon" class="download-icon">

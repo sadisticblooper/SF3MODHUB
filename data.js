@@ -56,9 +56,8 @@ const modData = {
       name: "Weapons",
       subbundles: [
         {
-          name: "SubMaterial 1",
-          image: "assets/raw1.webp",
-          link: "https://example.com/raw1"
+          name: "Dual Swords stance",
+          link: "https://t.me/idkjetd/39"
         }
       ]
     },

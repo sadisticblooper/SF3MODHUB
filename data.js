@@ -27,6 +27,11 @@ const modData = {
           name: "Helga stance for single handed Sword",
           image: "assets/HelgaOnehandsword.webp",
           link: "https://t.me/idkjetd/47"
+        },
+        {
+          name: "Ironclad challange stance",
+          image: "ironcladchallange.webp",
+          link: "https://t.me/idkjetd/49"
         }
       ]
     },

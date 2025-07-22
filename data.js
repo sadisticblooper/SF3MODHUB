@@ -25,7 +25,7 @@ const modData = {
         },
         {
           name: "Helga stance for single handed Sword",
-          image: "Helga Onehandsword.webp",
+          image: "HelgaOnehandsword.webp",
           link: "https://t.me/idkjetd/47"
         }
       ]

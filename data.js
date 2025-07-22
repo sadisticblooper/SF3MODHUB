@@ -22,6 +22,11 @@ const modData = {
           name: "katana qigong stance by Danrath",
           image: "assets/qigong.webp",
           link: "https://t.me/idkjetd/25"
+        },
+        {
+          name: "Helga stance for single handed Sword",
+          image: "Helga Onehandsword.webp",
+          link: "https://t.me/idkjetd/47"
         }
       ]
     },

@@ -57,6 +57,11 @@ const modData = {
           name: "Librator Purple theme mod",
           image: "assets/libratorpurple.webp",
           link: "https://t.me/idkjetd/31"
+        },
+        {
+          name: "Biblically accurate black shadow artisan",
+          image: "assets/shadow artisan.webp",
+          link: "https://t.me/idkjetd/51"
         }
       ]
     }

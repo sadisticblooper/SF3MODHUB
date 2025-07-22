@@ -176,19 +176,20 @@ h1 {
   justify-content: center;
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.3);
-  /* Remove max-height and overflow to prevent cropping */
+  /* Ensure container doesn't restrict image size */
+  width: 100%;
+  height: auto;
 }
 
 .mod-image-container img {
   width: auto;
   height: auto;
   max-width: 100%;
-  /* Remove max-height to allow full image display */
-  object-fit: contain; /* Keeps aspect ratio without cropping */
+  /* Ensure image scales within container without cropping */
+  object-fit: contain;
   border-radius: 4px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-
 .download-container {
   display: flex;
   flex-direction: column;

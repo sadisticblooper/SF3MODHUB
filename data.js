@@ -67,8 +67,24 @@ const modData = {
       subbundles: [
         {
           name: "Shadow's moveset",
-          image: "assets/raw2.webp",
           link: "https://t.me/idkjetd/21"
+        },
+        {
+          name: "Bolo stance and animation",
+          link: "https://t.me/idkjetd/33"
+        },
+        {
+          name: "Stranger animations",
+          link: "https://t.me/idkjetd/35"
+        }
+      ]
+    },
+    {
+      name: "Sound Assets",
+      subbundles: [
+        {
+          name: "Block Sounds",
+          link: "https://t.me/idkjetd/37"
         }
       ]
     }

@@ -58,6 +58,19 @@ const modData = {
         {
           name: "Dual Swords stance",
           link: "https://t.me/idkjetd/39"
+        },
+        {
+          name: "Composite Sword stance",
+          link: "https://t.me/idkjetd/41"
+          
+        },
+        {
+          name: "Giant Sword Stance",
+          link: "https://t.me/idkjetd/43"
+        },
+        {
+          name: "Two Handed Sword Stance",
+          link: "https://t.me/idkjetd/45"
         }
       ]
     },

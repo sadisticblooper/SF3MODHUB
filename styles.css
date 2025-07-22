@@ -18,7 +18,7 @@ body::before {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.3); /* Light black tint */
+  background: rgba(0, 0, 0, 0.4); /* Light black tint */
   z-index: -1;
 }
 

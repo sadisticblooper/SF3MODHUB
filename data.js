@@ -30,7 +30,7 @@ const modData = {
         },
         {
           name: "Ironclad challange stance",
-          image: "ironcladchallange.webp",
+          image: "ironclad challange.webp",
           link: "https://t.me/idkjetd/49"
         }
       ]

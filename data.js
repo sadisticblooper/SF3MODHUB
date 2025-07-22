@@ -103,7 +103,7 @@ function generateSectionHTML(sectionId) {
               <a href="${subbundle.link}" target="_blank">
                 <img src="download-icon.svg" alt="Download Icon" class="download-icon">
               </a>
-              <a href="${subbundle.link}" target="_blank" class="download-text">Download ${subbundle.name}</a>
+              <a href="${subbundle.link}" target="_blank" class="download-text">Download </a>
             </div>
           </div>
         </div>

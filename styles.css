@@ -1,4 +1,3 @@
-/* Base Styles */
 body {
   font-family: Arial, sans-serif;
   background: url('assets/bg.webp') no-repeat center center fixed;
@@ -7,6 +6,20 @@ body {
   margin: 0;
   padding: 2rem;
   text-align: center;
+  position: relative;
+  z-index: 0;
+}
+
+/* Add the overlay */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3); /* Light black tint */
+  z-index: -1;
 }
 
 /* Title styling */

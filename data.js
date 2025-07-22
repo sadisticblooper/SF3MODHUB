@@ -42,7 +42,11 @@ const modData = {
           name: "void warden becomes shadow mind",
           image: "assets/void×shadowmind skin.webp",
           link: "https://t.me/idkjetd/15"
-        
+        },
+        {
+          name: "Librator Purple theme mod",
+          image: "assets/libratorpurple.webp",
+          link: "https://t.me/idkjetd/31"
         }
       ]
     }

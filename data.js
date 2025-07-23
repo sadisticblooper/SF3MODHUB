@@ -19,7 +19,7 @@ const modData = {
           link: "https://t.me/idkjetd/23"
         },
         {
-          name: "katana qigong stance by Danrath",
+          name: "katana qigong stance",
           image: "assets/qigong.webp",
           link: "https://t.me/idkjetd/25"
         },

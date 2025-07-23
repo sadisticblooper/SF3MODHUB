@@ -238,9 +238,60 @@ h1 {
   text-shadow: 0 0 5px rgba(78, 205, 196, 0.7);
 }
 
-/* Separator Line */
-.separator {
-  height: 1px;
-  background: linear-gradient(to right, transparent, #4260f5, #0077B6);
-  margin: 0.5rem 0;
+
+/* Search Icon Styles */
+.search-icon-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+
+.search-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(66, 96, 245, 0.7);
+  transition: all 0.3s ease;
+}
+
+.search-icon:hover {
+  transform: scale(1.1);
+}
+
+.search-expandable {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: rgba(30, 30, 46, 0.95);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border: 1px solid #6D5ACF;
+  width: 300px;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.search-expandable.visible {
+  display: flex;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Update existing search bar styles */
+.search-bar {
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0;
+}
+
+.search-button {
+  width: 100%;
+  padding: 0.8rem;
 }

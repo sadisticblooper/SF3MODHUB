@@ -66,7 +66,7 @@ const modData = {
         {
           name: "Biblically accurate black shadow artisan",
           image: "assets/shadow artisan.webp",
-          link: "https://t.me/idkjetd/51"
+          link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/okada-set-superblack-1.0.zip"
         }
       ]
     }

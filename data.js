@@ -32,6 +32,11 @@ const modData = {
           name: "Ironclad challange stance",
           image: "assets/ironclad challenge.webp",
           link: "https://t.me/idkjetd/49"
+        },
+        {
+          name: "Spinning Naginata",
+          image: "Spinning Naginata",
+          link: "https://t.me/idkjetd/53"
         }
       ]
     },

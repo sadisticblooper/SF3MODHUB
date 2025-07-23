@@ -35,7 +35,7 @@ const modData = {
         },
         {
           name: "Spinning Naginata",
-          image: "assets/Spinning Naginata",
+          image: "assets/Spinning Naginata.webp",
           link: "https://t.me/idkjetd/53"
         }
       ]

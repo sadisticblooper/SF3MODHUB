@@ -1,31 +1,236 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SF3 MODS</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <h1>SF3 MODS</h1>
-<p class="subtitle">KEKKI SUCKS</p>
+/* Base Styles */
+body {
+  font-family: Arial, sans-serif;
+  background: url('assets/bg.webp') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+}
 
-  <div class="button-container">
-    <div class="button" onclick="toggleSection('readymade')">Readymade Mods</div>
-    <div class="button" onclick="toggleSection('rawmaterial')">Raw Material</div>
-    <a class="button" href="https://discord.gg/3YmqPSJQ" target="_blank">Send Your Mods Here</a>
-  </div>
+/* Title styling */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+  text-align: center;
+  text-shadow: 
+    0 0 5px #6D5ACF,
+    0 0 10px #6D5ACF,
+    0 0 20px #6D5ACF,
+    0 0 40px rgba(66, 96, 245, 0.7),
+    0 0 80px rgba(66, 96, 245, 0.5);
+  animation: fadeIn 2s ease-in-out;
+}
 
+/* Subtitle */
+.subtitle {
+  font-size: 1rem;
+  color: #c5c2ff;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 4px rgba(109, 90, 207, 0.4);
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  animation: fadeIn 2s ease-in-out;
+}
 
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+/* Button Styles */
+.button-container {
+  margin-bottom: 2rem;
+}
 
-  <!-- Readymade Mods Section -->
-  <div id="readymade" class="folder-section" style="display: none;"></div>
+.button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin: 0.5rem;
+  background: #222;
+  border: 2px solid #4260f5;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
 
-  <!-- Raw Material Section -->
-  <div id="rawmaterial" class="folder-section" style="display: none;"></div>
+.button:hover {
+  background: #333;
+  box-shadow: 0 0 15px rgba(66, 96, 245, 0.5);
+}
 
-  <script src="data.js"></script>
-  <script src="script.js"></script>
-</body>
-</html>
+/* Folder Section Styles */
+.folder-section {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.folder {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #2e2e2e;
+  border: 1px solid #6D5ACF;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.folder:hover {
+  background: #2e2e2e;
+  border-color: #4260f5;
+}
+
+.subfolder, .bundle-content {
+  margin-left: 1.5rem;
+  margin-top: 0.5rem;
+  display: none;
+}
+
+/* Subbundle Styles */
+.subbundle {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #00FFFF;
+  cursor: pointer;
+  color: #fff;
+  position: relative;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.subbundle:hover {
+  color: #fff;
+}
+
+.subbundle.active {
+  color: #fff;
+  font-weight: bold;
+}
+
+.subbundle.active::after {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 30px;
+  width: 4px;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #FF0000;
+  font-size: 0.9rem;
+}
+
+/* Bundle Content Styles */
+.bundle-content {
+  margin-left: 1.5rem;
+  padding: 1rem;
+  background: rgba(30, 30, 46, 0.8);
+  border: 1px solid rgba(66, 96, 245, 0.3);
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  box-shadow: 0 0 20px rgba(66, 96, 245, 0.3);
+  transition: all 0.3s ease;
+}
+
+.bundle-content:hover {
+  box-shadow: 0 0 25px rgba(66, 96, 245, 0.5);
+  border-color: rgba(66, 96, 245, 0.5);
+}
+
+/* Mod Content Styles */
+.mod-content {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.mod-image-container {
+  flex: 1;
+  min-width: 150px;
+  min-height: 100px;
+  max-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.mod-image-container img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.download-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.download-icon {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  color: #4ecdc4;
+  transition: all 0.2s ease;
+}
+
+.download-icon:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.download-text {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.mod-content a {
+  color: #4ecdc4;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.mod-content a:hover {
+  color: #fff;
+  text-shadow: 0 0 5px rgba(78, 205, 196, 0.7);
+}
+
+/* Separator Line */
+.separator {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #4260f5, #0077B6);
+  margin: 0.5rem 0;
+}

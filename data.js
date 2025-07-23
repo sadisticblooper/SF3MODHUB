@@ -99,7 +99,7 @@ const modData = {
         {
           name: "Single handed Sword stance",
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Raw%20material/Weapons/Single%20handed%20sword%20stances(not%20modded).zip"
-            
+        }
       ]
     },
     {

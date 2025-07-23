@@ -1,4 +1,4 @@
-// Section toggling functionality
+// Section toggling functionality.
 function toggleSection(id) {
   document.getElementById("readymade").style.display = "none";
   document.getElementById("rawmaterial").style.display = "none";

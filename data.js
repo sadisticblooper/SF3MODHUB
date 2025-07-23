@@ -4,7 +4,7 @@ const modData = {
       name: "Stance",
       subbundles: [
         {
-          name: "Dote apple cutting stance",
+          name: "Itu apple cutting stance for iaodo Katana",
           image: "assets/dote apple.webp",
           link: "https://t.me/idkjetd/3"
         },

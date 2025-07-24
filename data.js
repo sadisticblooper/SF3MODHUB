@@ -41,7 +41,7 @@ const modData = {
         {
           name: "BareHand stance for Herald and Legion",
           image: "assets/Spinning Naginata.webp",
-          link: ""
+          link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/barehand%20modified%20stance%20for%20dynasty%20and%20legion.zip"
       ]
     },
     {

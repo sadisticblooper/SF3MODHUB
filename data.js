@@ -37,7 +37,11 @@ const modData = {
           name: "Spinning Naginata",
           image: "assets/Spinning Naginata.webp",
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/spinning%20nagainata.zip"
-        }
+        },
+        {
+          name: "BareHand stance for Herald and Legion",
+          image: "assets/Spinning Naginata.webp",
+          link: ""
       ]
     },
     {

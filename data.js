@@ -134,7 +134,8 @@ const modData = {
         },
         {
           name: "Dual Axes Stance",
-          link: "
+          link: ""
+        }
       ]
     },
     {

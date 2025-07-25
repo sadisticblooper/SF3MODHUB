@@ -123,7 +123,18 @@ const modData = {
         {
           name: "Widows Fan [Void Version]",
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Raw%20material/Weapons/Widows%20fan%20%5BViod%20Version%5D%20(not%20modded).zip"
-        }
+        },
+        {
+          name: "Barehand Stance",
+          link: ""
+        },
+        {
+          name: "Claws Stance",
+          link: ""
+        },
+        {
+          name: "Dual Axes Stance",
+          link: "
       ]
     },
     {

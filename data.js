@@ -42,6 +42,16 @@ const modData = {
           name: "BareHand stance for Herald and Legion",
           image: "assets/Barehand stance str, prc.webp",
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/barehand%20modified%20stance%20for%20dynasty%20and%20legion.zip"
+        },
+        {
+          name: "Shadow beast satance for Claws",
+          image: "assets/Shadow beast claws.webp",
+          link: ""
+        },
+        {
+          name: "Ultimatum stance for Two handed Sword ",
+          image: "assets/ultimatum stance for two handed sword.webp",
+          link: ""
         }
       ]
     },

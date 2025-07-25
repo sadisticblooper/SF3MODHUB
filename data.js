@@ -82,6 +82,11 @@ const modData = {
           name: "Biblically accurate black shadow artisan",
           image: "assets/shadow artisan.webp",
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Skin%20mod/okada-set-superblack-1.0.zip"
+        },
+        {
+          name: "Cool Sword for Abdicator",
+          image: "assets/Cool sword for Abdicator.webp",
+          link: ""
         }
       ]
     }

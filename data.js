@@ -86,7 +86,7 @@ const modData = {
         {
           name: "Cool Sword for Abdicator",
           image: "assets/Cool sword for Abdicator.webp",
-          link: ""
+          link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Skin%20mod/Cool%20sword%20for%20abdicator.zip"
         }
       ]
     }

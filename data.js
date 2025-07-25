@@ -134,11 +134,11 @@ const modData = {
         },
         {
           name: "Dual Axes Stance",
-          link: ""
+          link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Raw%20material/Weapons/Dual%20Axes%20stance%20(not%20modded).zip"
         },
         {
-          name: "",
-          link: ""
+          name: "Knuckles Stance",
+          link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Raw%20material/Weapons/Knuckles%20Stance%20(not%20modded).zip"
         }
       ]
     },

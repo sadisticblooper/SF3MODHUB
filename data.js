@@ -45,8 +45,8 @@ const modData = {
         },
         {
           name: "Shadow beast satance for Claws",
-          image: "assets/Shadow beast claws.webp",
-          link: ""
+          image: "assets/Shadow beast claws stance.webp",
+          link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/Shadow%20beast%20stance%20for%20Claws.zip"
         },
         {
           name: "Ultimatum stance for Two handed Sword ",

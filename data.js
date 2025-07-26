@@ -65,7 +65,7 @@ const modData = {
         },
         {
           name: "Widows Fan victory stance",
-          image: "",
+          image: "assets/Widows Fan victory stance.webp",
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/Widows%20Fan%20victory%20stance%20.zip"
         }
       ]

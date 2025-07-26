@@ -11,7 +11,7 @@ const modData = {
         {
           name: "Ioado Katana itu meditation stance",
           image: "assets/Ioado Katana itu meditation stance.webp",
-          link: ""
+          link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/Iaodo%20katana%20itu%20meditation%20stance.zip"
         },
         {
           name: "Glitch Markus for Giant sword",
@@ -101,7 +101,7 @@ const modData = {
         {
           name: "Monkey King Jade Skin Recolor",
           image: "assets/Monkey King Jade Skin Recolor.webp",
-          link""
+          link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Skin%20mod/Monkey%20King%20Jade%20theme%20.zip"
         }
             
       ]

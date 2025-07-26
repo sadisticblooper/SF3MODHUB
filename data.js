@@ -9,6 +9,11 @@ const modData = {
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/Ioado%20katana%20stance%20apple%20cutting%20.zip"
         },
         {
+          name: "Ioado Katana itu meditation stance",
+          image: "assets/Ioado Katana itu meditation stance.webp",
+          link: ""
+        },
+        {
           name: "Glitch Markus for Giant sword",
           image: "assets/Markus giant sword.webp",
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/Glitch%20Markus%20stance.zip"
@@ -92,7 +97,13 @@ const modData = {
           name: "Cool Sword for Abdicator",
           image: "assets/Cool sword for Abdicator.webp",
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Skin%20mod/Cool%20sword%20for%20abdicator.zip"
+        },
+        {
+          name: "Monkey King Jade Skin Recolor",
+          image: "assets/Monkey King Jade Skin Recolor.webp",
+          link""
         }
+            
       ]
     }
   ],

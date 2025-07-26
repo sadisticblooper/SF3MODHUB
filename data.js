@@ -62,6 +62,11 @@ const modData = {
           name: "Steel Dog Stance [lobby+battle] ",
           image: "assets/Steeldog Stance.webp",
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/Steel%20hound%20weapon%20Stance.zip"
+        },
+        {
+          name: "Widows Fan victory stance",
+          image: "",
+          link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/Widows%20Fan%20victory%20stance%20.zip"
         }
       ]
     },

@@ -52,6 +52,11 @@ const modData = {
           name: "Ultimatum stance for Two handed Sword ",
           image: "assets/ultimatum stance for two handed sword.webp",
           link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/Untimatum%20stance%20for%20two%20handed%20sword.zip"
+        },
+        {
+          name: "Steel Dog Stance [lobby+battle] ",
+          image: "assets/Steeldog Stance.webp",
+          link: "https://github.com/sadisticblooper/SF3MODHUB/raw/refs/heads/main/Modfiles/Stances/Steel%20hound%20weapon%20Stance.zip"
         }
       ]
     },

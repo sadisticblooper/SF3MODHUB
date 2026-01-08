@@ -3,14 +3,12 @@ function toggleSection(id) {
   document.getElementById("rawmaterial").style.display = "none";
   document.getElementById(id).style.display = "block";
   
-  // Reset all active states when switching sections
   document.querySelectorAll('.subbundle.active').forEach(item => {
     item.classList.remove('active');
     const arrow = item.querySelector('.arrow');
     if (arrow) arrow.textContent = '▼';
   });
   
-  // Close all open bundles when switching sections
   document.querySelectorAll('.subfolder, .bundle-content').forEach(item => {
     item.style.display = 'none';
   });
@@ -46,7 +44,6 @@ function toggleSub(el) {
   }
 }
 
-// Close bundles when clicking outside
 document.addEventListener('click', function(event) {
   if (!event.target.closest('.folder, .subbundle, .bundle-content')) {
     document.querySelectorAll('.subfolder, .bundle-content').forEach(item => {
